@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lista.css">
+</head>
+<body>
+    <h1>Lista de tareas de Geremias</h1>
+	
+	<label for="tarea">Añadir tarea:</label>
+	<input type="text" id="tarea">
+	<button onclick="agregarTarea()">ADD</button>
+    <br>
+    <ul id="lista">
+		<li>
+			<input type="checkbox" onclick="marcarTarea(this)">
+			Comprar algo 
+		</li>
+    </ul>
+	<button onclick="eliminarTarea()">Eliminar tarea</button>
+	
+
+</body>
+</html>
